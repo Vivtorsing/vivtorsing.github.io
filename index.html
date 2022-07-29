@@ -1,7 +1,7 @@
 <html>
   <head>
     <title>Vivtorsing</title>
-    <!--<link rel="icon" type="image/x-icon" src="favicon.ico">-->
+    <!--<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
       #mySidenav a {
@@ -11,21 +11,29 @@
         padding: 12px;
         width: 100px;
         text-decoration: none;
-        font-size: 20px;
+        font-size: 25px;
         color: white;
       }
       #mySidenav a:hover {
         color: #ff9bff;
       }
-      .button {
-        border: none;
+      #mySidenav2 a {
+        transition: 0.3s;
+        margin-top: 10px;
+        text-align: center;
+        padding: 12px;
+        width: 100px;
+        text-decoration: none;
+        font-size: 25px;
         color: white;
-        width: 500px;
-        height: 180px;
-        border-top-left-radius:28px;
-        border-top-right-radius:28px;
-        border-bottom-left-radius:28px;
-        border-bottom-right-radius:28px;
+      }
+      #mySidenav2 a:hover {
+        color: #ff9bff;
+      }
+      .button {
+        border: 10px solid #0078c8;
+        width: 180px;
+        height: 500px;
         padding: 16px 32px;
         text-align: center;
         text-decoration: none;
@@ -41,8 +49,7 @@
          animation: buttonAnimation 5s ease infinite;
       }
       .button:hover {
-        background: #ff9bff;
-        color: white;
+        border: 15px solid #c87dc8;
       }
       @-webkit-keyframes buttonAnimation {
           0%{background-position:51% 0%}
@@ -60,7 +67,7 @@
           100%{background-position:51% 0%}
       }
       .buttonContainer { 
-        height: 200px;
+        height: 600px;
         position: relative;
       }
       .buttonCenter {
@@ -93,7 +100,7 @@
       }
       .smalltitle {
         font-size: 30px;
-        color: white;
+        color: #ff9bff;
         text-align: center;
       }
       .copyright {
@@ -101,15 +108,19 @@
         color: white;
         text-align: center;
       }
+      .box {
+        transition: 0.3s;
+        width:49%; 
+        float:left; 
+        border: 5px solid #ff9bff; 
+        background: rgba(0, 155, 255, .75);
+      }
+      .box:hover {
+        background: rgba(0, 155, 255, 1);
+      }
     </style>
   </head>
   <body style="background-color: #2C2F33;">
-    <!--<div id="mySidenav" class="sidenav" style="padding: 10; text-align:center;">
-      <a href="index.html">Home</a>
-      <a href="commands.html">Commands</a>
-      <a href="premium.html">Premium</a>
-      <a href="staff.html">Staff</a>
-    </div>-->
     <div class="title"><b>Vivtorsing</b></div>
     <!--<img src="uselessbot.png" class="centerimage" style="width: 25%">-->
     <hr>
@@ -117,15 +128,8 @@
     <div class="desc" style="text-align: center">
       Vivtorsing weird website with weird things! <br/>
       More updates to this website coming soon! <br/>
-      <!--Useless Bot can search and play music! <br/>
-      Useless Bot can tell you jokes! <br/>
-      Useless Bot has memes! <br/>
-      Useless Bot can get images from reddit <br/>
-      Useless Bot can give you minecraft player or server information <br/>
-      Useless Bot has games like Minesweeper, slots, rock paper scissors and more! <br/>
-      Useless Bot also has a economy system where everytime you chat you earn money! <br/>
       <br/>
-      Useless Bot might sound useless but it is actually useful!!<br/>-->
+      This site might be glitchy so expect some bugs<br/>
     </div><br/><br/>
     <div style="text-align: center">
       <script src="https://apis.google.com/js/platform.js"></script>
@@ -135,64 +139,49 @@
     <br/>
     <br/>
     <hr style="height:2px;border-width:0;color:#ff9bff;background-color:#ff9bff">
-    <br/>
     <p class="smalltitle"><b>Projects</b></p>
     <div style="text-align: center">
-      <a href="UselessBot" class="link" style="color: #ff9bff;">Useless Bot</a><br/>
+      <div class="box">
+        <div id="mySidenav" class="sidenav" style="padding: 10; text-align:center;">
+          <a href="UselessBot">Useless Bot</a>
+        </div>
+        <p class="desc">
+          A Discord bot that sounds useless but it is actually useful!<br/>
+          Useless Bot can show you the weather, give you anime or memes, give you cool games or play economy!
+        </p>
+      </div>
+      <div class="box">
+        <div id="mySidenav2" class="sidenav" style="padding: 10; text-align:center;">
+          <a href="vivtormccommands">Vivtor MC Commands</a>
+        </div>
+        <p class="desc">
+          A site where you can generator Minecraft commands!<br/>
+          This site is currently in alpha and currently only has a tool command generator
+        </p>
+      </div>
+            
       <br/>
       <p class="desc">More coming soon!</p>
     </div>
     <br/>
     <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
     
-    <!--<a href="index">Test</a>-->
-    
-    <!--<div class="desc" style="text-align: center; font-size: 32px">
-      Useless Bot is currently in <br/>
-      Over 3000 Servers!!!
-    </div>-->
-    <!--<p class="desc"></p>
-    <p class="smalltitle"><b>Prefixes</b></p>
-    <div class="desc">
-      In order to communicate to Useless Bot you must use slash commands! <br/>
-      <!--You can talk to Useless Bot by using <b style="color: #ff9bff;">hub</b> or <b style="color: #ff9bff;">hey useless bot</b>. <br/>-->
-    <!--</div>
-    <p class="desc"></p>
-    <p class="smalltitle"><b>Invite</b></p>
-    <div>
-      <div class="buttonContainer">
-        <div class="buttonCenter">
-          <!--<button class="button" onclick="https://discord.com/oauth2/authorize?client_id=683743410548768806&scope=bot&permissions=3590208">Click me to get Useless Bot in your server!</button><br/>-->
-          <!--<a class="button" href="https://discord.com/oauth2/authorize?client_id=683743410548768806&scope=bot&permissions=3590208" target="_blank" style="font-size: 30px; line-height: 180px;">Click me to invite Useless Bot!</a>
-        </div>
+    <!--portal background-->
+    <p class="desc" style="text-align: center;">Look a portal! I wonder where this leads to?</p>
+    <div class="buttonContainer">
+      <div class="buttonCenter">
+        <a class="button" href="https://youtube.com/c/Vivtorsing" target="_blank" style="font-size: 30px; line-height: 180px;"></a>
       </div>
     </div>
-    <p class="desc"></p>
-    <p class="smalltitle"><b>Donate</b></p>
-    <div class="desc">
-      Please donate so we can continue updating Useless Bot and keep Useless Bot running 24/7! <br/>
-      You will get access to premium commands! <br/>
-      <a href="https://www.patreon.com/UselessBot" target="_blank" style="color: #ff9bff;">Donate</a> <br/>
-    </div>
-    <p class="desc"></p>
-    <p class="smalltitle"><b>Support Or Contact</b></p>
-    <div class="desc">
-      Join our <a href="https://discord.com/invite/zsUuNxf" target="_blank" style="color: #ff9bff;">Discord Server</a> to ask for help or talk to us! <br/>
-      If you found a bug in Useless Bot then please go to bug report in our discord server!<br/>
-      Want to see what we are teaching Useless Bot? <a href="https://trello.com/b/wmocgz3u/useless-bot" target="_blank" style="color: #ff9bff;">Teaching Room</a>
-    </div>
-    <p style="font-size: 50px;"></p>
-    <div class="desc" style="text-align: center;">
-      Useless Bot started as a project during the pandemic. <br/>
-      I was bored and I wanted to learn how to code. <br/>
-      Working on this for over 7 months I learned a lot <br/>
-      But I did not expect Useless Bot to be in 1,000 Server! <br/>
-      Now Useless Bot is a fun hobby of mine! <br/>
-    </div>
-    <p style="font-size: 150px;"></p>
-    <div class="desc" style="text-align: center;">
-      What are you waiting for? Go invite Useless Bot! <br/>
-    </div>-->
+    
     <p style="font-size: 50px;"></p>
     <div class="copyright">Copyright © <script>document.write(new Date().getFullYear())</script> Vivtorsing</div>
   </body>
