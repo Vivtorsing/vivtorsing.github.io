@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5781d695.css",
+    "main.js": "/static/js/main.dfe1e4c4.js",
+    "static/js/453.5d679335.chunk.js": "/static/js/453.5d679335.chunk.js",
+    "static/media/vivieailogo.png": "/static/media/vivieailogo.e15463614ac9c821dd01.png",
+    "static/media/vivtorsinglogo.jpg": "/static/media/vivtorsinglogo.37360d1dc9a3bfc940a6.jpg",
+    "static/media/uselessbot.png": "/static/media/uselessbot.1ef71250a9361ffb8276.png",
+    "index.html": "/index.html",
+    "main.5781d695.css.map": "/static/css/main.5781d695.css.map",
+    "main.dfe1e4c4.js.map": "/static/js/main.dfe1e4c4.js.map",
+    "453.5d679335.chunk.js.map": "/static/js/453.5d679335.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5781d695.css",
+    "static/js/main.dfe1e4c4.js"
+  ]
+}
