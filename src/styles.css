@@ -1,0 +1,251 @@
+body {
+    background-color: #121212;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+.hero {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.youtube-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2vw;
+    margin-top: 2vh;
+}
+
+.youtube-image {
+    width: 25vw;  /*25% of screen width*/
+    height: 25vw;
+    /*max-width: 120px;
+    max-height: 120px;*/
+    border-radius: 50%;
+    box-shadow: 0 0 10vw rgba(255, 105, 180, 0.5);
+}
+
+@keyframes float {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-5px); }
+    100% { transform: translateY(0px); }
+}
+
+.floating-image {
+    animation: float 3s ease-in-out infinite;
+}
+
+.youtube-channel-name {
+    font-size: 10vw;
+    font-weight: bold;
+}
+
+/*@keyframes rainbow {
+    0% { color: red; }
+    14% { color: orange; }
+    28% { color: yellow; }
+    42% { color: green; }
+    57% { color: blue; }
+    71% { color: indigo; }
+    85% { color: violet; }
+    100% { color: red; }
+}*/
+
+@keyframes rainbow{
+    100%,0%{
+        color: rgb(255,0,0);
+    }
+    8%{
+        color: rgb(255,127,0);
+    }
+    16%{
+        color: rgb(255,255,0);
+    }
+    25%{
+        color: rgb(127,255,0);
+    }
+    33%{
+        color: rgb(0,255,0);
+    }
+    41%{
+        color: rgb(0,255,127);
+    }
+    50%{
+        color: rgb(0,255,255);
+    }
+    58%{
+        color: rgb(0,127,255);
+    }
+    66%{
+        color: rgb(0,0,255);
+    }
+    75%{
+        color: rgb(127,0,255);
+    }
+    83%{
+        color: rgb(255,0,255);
+    }
+    91%{
+        color: rgb(255,0,127);
+    }
+}
+
+.rainbow-text {
+    animation: rainbow 3s infinite linear;
+}
+
+h1 {
+    margin-top: 10px;
+    font-size: 2.5vw;
+}
+
+.social-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.social-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    font-size: 1.8rem;
+    border-radius: 50%;
+    text-decoration: none;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.social-button:hover {
+    transform: scale(1.2);
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.6);
+}
+
+.youtube {
+    background: #ff0000;
+    color: white;
+}
+
+.discord {
+    background: #5865F2;
+    color: white;
+}
+
+.twitter {
+    background: #1DA1F2;
+    color: white;
+}
+
+/*sections*/
+.youtube-section, .projects-section {
+    padding: 20px;
+}
+
+.video-grid, .project-grid {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.video-card, .project-card {
+    background: #1e1e1e;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.video-card:hover, .project-card:hover {
+    transform: scale(1.05);
+}
+
+
+/*projectsections*/
+.projects-section {
+    text-align: center;
+    padding: 30px;
+}
+
+.project-grid {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.project-card {
+    background: #2a2a2a;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    width: 250px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    text-decoration: none;
+    color: white;
+    box-shadow: 0 5px 10px rgba(255, 105, 180, 0.3); /* Cute pink glow */
+    overflow: hidden;
+    position: relative;
+}
+
+.project-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(255, 105, 180, 0.5);
+}
+
+.project-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.project-card h3 {
+    margin: 10px 0;
+    font-size: 1.3rem;
+    color: #ff79c6;
+}
+
+.project-card p {
+    font-size: 0.9rem;
+    color: #ddd;
+}
+
+.cute-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    animation: rainbowText 3s linear infinite;
+    /*text-shadow: 0 0 10px #ff69b4, 0 0 20px #ff69b4, 0 0 30px #ff69b4;*/
+    font-family: 'Pacifico', cursive;
+}
+
+@keyframes rainbowText {
+    0% { color: #ff66b2; }
+    25% { color: #ffcc66; }
+    50% { color: #66ff99; }
+    75% { color: #6699ff; }
+    100% { color: #ff66b2; }
+}
+
+/*footer*/
+.footer {
+    text-align: center;
+    padding: 15px;
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    font-size: 1rem;
+    width: 100%;
+    margin-top: 30px;
+    border-top: 2px solid #ff79c6;
+    position: relative;
+}
+
+.footer p {
+font-size: 1.2rem;
+font-weight: bold;
+letter-spacing: 1px;
+}
+  
