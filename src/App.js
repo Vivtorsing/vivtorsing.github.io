@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { FaYoutube, FaDiscord } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
+import { AnimatedBackground } from 'animated-backgrounds';
 import YouTubeSection from "./YouTubeSection";
 import ProjectsSection from "./ProjectsSection";
 import Footer from "./Footer";
@@ -32,6 +33,7 @@ const App = () => {
 
   return (
     <div className="app dark-mode">
+      <AnimatedBackground animationName="cosmicDust" blendMode="normal" />
       <header className="hero">
         {/*top of page with logo and name*/}
         <div className="youtube-header">
@@ -81,3 +83,9 @@ const App = () => {
 };
 
 export default App;
+
+
+{/*background*/}
+      //<div className="absolute inset-0 -z-10">
+        //<AnimatedBackground animationName="auroraBorealis" blendMode="normal" />
+      //</div>
