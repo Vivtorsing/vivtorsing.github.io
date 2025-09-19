@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.c563b8cd.css",
-    "main.js": "/static/js/main.a878a495.js",
+    "main.css": "/static/css/main.386aec30.css",
+    "main.js": "/static/js/main.5d4a2f5f.js",
     "static/media/checklist.png": "/static/media/checklist.2e5532b93f51213371ea.png",
     "static/media/sections.png": "/static/media/sections.d3517ab36ff6b0afab53.png",
     "static/media/Customers.png": "/static/media/Customers.dfc990cf3357ef18d744.png",
@@ -9,16 +9,17 @@
     "static/media/boards.png": "/static/media/boards.a38fcfa362e7f24544af.png",
     "static/media/Items.png": "/static/media/Items.7691fbc695354ed7f03d.png",
     "static/media/BusinessPage.png": "/static/media/BusinessPage.56e3bc13cd3558dbee76.png",
+    "static/media/VivieAILogo.png": "/static/media/VivieAILogo.e15463614ac9c821dd01.png",
     "static/media/vivtorsing.jpg": "/static/media/vivtorsing.37360d1dc9a3bfc940a6.jpg",
     "static/media/ViloIcon.png": "/static/media/ViloIcon.9ed625d2fc2cb49b8b88.png",
     "static/media/UselessBotLogo.png": "/static/media/UselessBotLogo.1ef71250a9361ffb8276.png",
     "static/media/VoucherlyIcon.png": "/static/media/VoucherlyIcon.c55ee1229d8d7ebe61c4.png",
     "index.html": "/index.html",
-    "main.c563b8cd.css.map": "/static/css/main.c563b8cd.css.map",
-    "main.a878a495.js.map": "/static/js/main.a878a495.js.map"
+    "main.386aec30.css.map": "/static/css/main.386aec30.css.map",
+    "main.5d4a2f5f.js.map": "/static/js/main.5d4a2f5f.js.map"
   },
   "entrypoints": [
-    "static/css/main.c563b8cd.css",
-    "static/js/main.a878a495.js"
+    "static/css/main.386aec30.css",
+    "static/js/main.5d4a2f5f.js"
   ]
 }
