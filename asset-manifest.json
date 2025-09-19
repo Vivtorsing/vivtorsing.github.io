@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.386aec30.css",
-    "main.js": "/static/js/main.2b114f1c.js",
+    "main.js": "/static/js/main.865cec05.js",
     "static/media/checklist.png": "/static/media/checklist.2e5532b93f51213371ea.png",
     "static/media/sections.png": "/static/media/sections.d3517ab36ff6b0afab53.png",
     "static/media/Customers.png": "/static/media/Customers.dfc990cf3357ef18d744.png",
@@ -16,10 +16,10 @@
     "static/media/VoucherlyIcon.png": "/static/media/VoucherlyIcon.c55ee1229d8d7ebe61c4.png",
     "index.html": "/index.html",
     "main.386aec30.css.map": "/static/css/main.386aec30.css.map",
-    "main.2b114f1c.js.map": "/static/js/main.2b114f1c.js.map"
+    "main.865cec05.js.map": "/static/js/main.865cec05.js.map"
   },
   "entrypoints": [
     "static/css/main.386aec30.css",
-    "static/js/main.2b114f1c.js"
+    "static/js/main.865cec05.js"
   ]
 }
