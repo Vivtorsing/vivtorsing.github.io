@@ -6,7 +6,6 @@ import { ReactTyped } from 'react-typed';
 import Galaxy from '../components/Galaxy';
 import SkinViewer from '../components/SkinViewer';
 import GlitchText from '../components/GlitchText';
-import YouTubeSection from '../components/YouTubeSection';
 
 import VivtorsingMCSkin from '../images/VivtorsingPage/vivtorsingMCSkin.png';
 import VivtorsingImage from '../images/MemberImage/vivtorsing.jpg';
@@ -23,7 +22,7 @@ const Youtuber = () => {
     "Command Block Engineer",
     "Web Developer"
   ];
-  /*const CHANNEL_ID = "UCECUOW5LUwZWpWTGaKUFWXg";
+  const CHANNEL_ID = "UCECUOW5LUwZWpWTGaKUFWXg";
   const FEED_URL = `https://www.youtube.com/feeds/videos.xml?channel_id=${CHANNEL_ID}`;
 
   const [latestVideos, setLatestVideos] = useState([]);
@@ -47,7 +46,7 @@ const Youtuber = () => {
     };
 
     fetchVideos();
-  }, []);*/
+  }, []);
 
   const projects = [
     {
@@ -122,8 +121,7 @@ const Youtuber = () => {
         </section>
 
         {/*videos sections*/}
-        <YouTubeSection />
-        {/*<section className="py-16 bg-gray-800/50 backdrop-blur-sm">
+        <section className="py-16 bg-gray-800/50 backdrop-blur-sm">
           <h2 className="text-4xl font-bold text-center mb-8 text-pink-400">Latest Videos</h2>
           <div className="flex flex-wrap justify-center gap-8">
             {latestVideos.map((video) => (
@@ -141,7 +139,7 @@ const Youtuber = () => {
               </div>
             ))}
           </div>
-        </section>*/}
+        </section>
 
         {/*3d minecraft skin*/}
         <section className="py-16 flex justify-center">

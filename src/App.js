@@ -1,4 +1,4 @@
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route, useLocation } from 'react-router-dom';
 import { Helmet } from 'react-helmet-async';
 import Home from './pages/Home';
 import Projects from './pages/Projects';
@@ -13,6 +13,8 @@ import ScrollToTop from './components/ScrollToTop';
 import './App.css';
 
 function App() {
+  const location = useLocation();
+  const fullScreen = location.pathname === "/team/vivtorsing";
   return (
     <div className="min-h-screen bg-dark-bg">
       <Helmet>
@@ -20,7 +22,7 @@ function App() {
         <meta name="description" content="Discover cutting-edge apps and tools from Vivcy Labs!" />
       </Helmet>
       <Navbar />
-      <main className="container mx-auto px-4 py-8">
+      <main className={fullScreen ? "" : "container mx-auto px-4 py-8"}>
         <ScrollToTop />
         <Routes>
           <Route path="/" element={<Home />} />
