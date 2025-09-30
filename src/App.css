@@ -37,16 +37,3 @@ body {
     font-size: 2.5rem;
   }
 }
-
-
-
-
-
-@keyframes fall {
-  0% { top: -10%; transform: translateX(0) rotate(0); }
-  100% { top: 110%; transform: translateX(20px) rotate(360deg); }
-}
-
-.animate-fall {
-  animation: fall linear infinite;
-}

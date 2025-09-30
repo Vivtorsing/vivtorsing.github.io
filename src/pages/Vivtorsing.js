@@ -12,7 +12,7 @@ import VivtorsingImage from '../images/MemberImage/vivtorsing.jpg';
 import UselessBotLogo from '../images/UselessBotLogo.png';
 import VivieAILogo from '../images/VivieAILogo.png';
 
-const Youtuber = () => {
+const Vivtorsing = () => {
 
   const roles = [
     "YouTuber",
@@ -185,4 +185,4 @@ const Youtuber = () => {
   );
 };
 
-export default Youtuber;
+export default Vivtorsing;

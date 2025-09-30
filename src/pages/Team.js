@@ -12,6 +12,7 @@ const team = [
   {id: 'vivtorsing', name: 'Vivtorsing', role: 'The Boss', bio: 'Does boss things', image: vivtorsing, hasPage: true },
   {id: 'vj', name: 'VJ', role: 'Founding Engineer', bio: 'Loves coding and building new things!', image: UselessBotLogo, hasPage: false },
   {id: 'vivtoria', name: 'Vivtoria', role: 'Bug Tester', bio: 'Wait why are you here?', image: UselessBotLogo, hasPage: false},
+  //{id: 'bob', name: 'Bob', role: 'Video Editor', bio: 'Edits some amazing videos!', image: UselessBotLogo, hasPage: false}, //I want to change the layout before adding Bob and the rest of the team
   {id: 'more', name: 'And More!', role: '', bio: 'We will add more slowly!', image: UselessBotLogo, hasPage: false },
 ];
 
