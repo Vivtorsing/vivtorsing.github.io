@@ -76,30 +76,6 @@ const Home = () => {
             </motion.div>
           ))}
         </div>
-        {/*<motion.div
-          variants={containerVariants}
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true }}
-          className="grid grid-cols-1 md:grid-cols-3 gap-6"
-        >
-          {featuredProjects.map((project) => (
-            <motion.div
-              key={project.id}
-              variants={childVariants}
-              className="card"
-            >
-              <img src={project.image} alt={project.title} className="rounded-t-xl mb-4" />
-              <h3 className="text-xl font-semibold mb-2">{project.title}</h3>
-              <p>{project.description}</p>
-              {project.link ? (
-                <Link to={project.link} className="btn-pink mt-4 inline-block">Learn More</Link>
-              ) : (
-                <a href={project.externalLink} className="btn-pink mt-4 inline-block" target="_blank" rel="noopener noreferrer">View on GitHub</a>
-              )}
-            </motion.div>
-          ))}
-        </motion.div>*/}
       </section>
 
       {/*cta section*/}

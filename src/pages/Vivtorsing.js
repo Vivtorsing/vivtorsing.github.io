@@ -67,7 +67,7 @@ const Vivtorsing = () => {
     <div className="relative min-h-screen text-gray-200 overflow-hidden">
       <Helmet>
         <title>Vivtorsing</title>
-        <meta name="description" content={`A weird Minecraft YouTuber that loves command blocks and Minecraft!`} />
+        <meta name="description" content="A weird Minecraft YouTuber that loves command blocks and Minecraft!" />
       </Helmet>
       {/*background*/}
       <Galaxy
