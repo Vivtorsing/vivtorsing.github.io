@@ -8,6 +8,7 @@ import VoucherlyIcon from '../images/Voucherly/VoucherlyIcon.png';
 import VivieIcon from '../images/VivieAILogo.png';
 import mcCommandsIcon from '../images/mcCommandsLogo.png';
 import AIToolsLogo from '../images/AIToolsLogo.png';
+import VivtorCraftLogo from '../images/VivtorCraftLogo.png';
 
 //all the projects here
 const featuredProjects = [
@@ -16,7 +17,8 @@ const featuredProjects = [
   { id: 'vilo', title: 'Vilo', description: 'Organize tasks with ease.', image: ViloIcon, link: '/projects/vilo' },
   { id: 'vivie', title: 'Vivie AI', description: 'A Minecraft AI', image: VivieIcon, externalLink: 'https://vivtorsing.com/Vivie/'},
   { id: 'mccommands', title: 'mcCommands', description: 'Browse and explore useful Minecraft commands', image: mcCommandsIcon, externalLink: 'https://vivtorsing.com/mcCommands/'},
-  { id: 'aitools', title: 'AITools', description: 'Explore AI-powered tools right in your browser', image: AIToolsLogo, externalLink: 'https://vivtorsing.com/AITools/'}
+  { id: 'aitools', title: 'AITools', description: 'Explore AI-powered tools right in your browser', image: AIToolsLogo, externalLink: 'https://vivtorsing.com/AITools/'},
+  { id: 'vivtorcraft', title: 'VivtorCraft', description: 'A Cool Minecraft Server', image: VivtorCraftLogo, externalLink: 'https://vivtorsing.com/VivtorCraftServer/'}
 ];
 
 const Home = () => {
