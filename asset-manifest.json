@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.d2ba5bc2.css",
-    "main.js": "/static/js/main.43325286.js",
+    "main.js": "/static/js/main.7fe516ce.js",
     "static/media/checklist.png": "/static/media/checklist.2e5532b93f51213371ea.png",
     "static/media/sections.png": "/static/media/sections.d3517ab36ff6b0afab53.png",
     "static/media/AIToolsLogo.png": "/static/media/AIToolsLogo.d4d2fa199af2c2f345be.png",
@@ -16,12 +16,13 @@
     "static/media/ViloIcon.png": "/static/media/ViloIcon.9ed625d2fc2cb49b8b88.png",
     "static/media/UselessBotLogo.png": "/static/media/UselessBotLogo.1ef71250a9361ffb8276.png",
     "static/media/VoucherlyIcon.png": "/static/media/VoucherlyIcon.c55ee1229d8d7ebe61c4.png",
+    "static/media/VivtorCraftLogo.png": "/static/media/VivtorCraftLogo.608db6cf8070c9e4ad7b.png",
     "index.html": "/index.html",
     "main.d2ba5bc2.css.map": "/static/css/main.d2ba5bc2.css.map",
-    "main.43325286.js.map": "/static/js/main.43325286.js.map"
+    "main.7fe516ce.js.map": "/static/js/main.7fe516ce.js.map"
   },
   "entrypoints": [
     "static/css/main.d2ba5bc2.css",
-    "static/js/main.43325286.js"
+    "static/js/main.7fe516ce.js"
   ]
 }
