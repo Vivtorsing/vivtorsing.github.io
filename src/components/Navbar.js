@@ -6,7 +6,7 @@ const Navbar = () => {
     <motion.nav
       initial={{ y: -50 }}
       animate={{ y: 0 }}
-      className="bg-gray-900 p-4 sticky top-0 z-10"
+      className="bg-gray-900 p-4 sticky top-0 z-40"
     >
       <div className="container mx-auto flex justify-between items-center">
         <Link to="/" className="text-pink-accent text-2xl font-bold">Vivcy Labs</Link>
